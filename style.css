@@ -31,6 +31,22 @@
   font-size: 48px;
 }
 
+.content-scrollbar-overflow-container {
+  overflow-y: scroll;
+  overflow: auto;
+  width: 80%;
+}
+
+.navbar-toggler {
+  background-color: #3EBAC0;
+}
+
+.title {
+  margin: 25px;
+  text-decoration: underline #3EBAC0;
+  text-underline-offset: 10px;
+}
+
 .paragraph-font {
   font-family: "Source Sans 3", sans-serif;
 }
@@ -111,14 +127,20 @@ body {
   }
 }
 
-@media (min-width: 790.98px) {
+@media (min-width: 768.98px) {
 
   .heading-size-change {
     font-size: 20px;
   }
+
+  
+  #logo img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
-@media (max-width: 790.98px) {
+@media (max-width: 768.98px) {
 
   .heading-size-change {
     font-size: 15px;
@@ -127,8 +149,8 @@ body {
   }
 
   #logo img {
-    width: 70px;
-    height: 70px;
+    width: 54px;
+    height: 54px;
   }
 }
 
