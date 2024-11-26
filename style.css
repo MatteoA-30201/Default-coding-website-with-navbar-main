@@ -120,20 +120,7 @@ body {
   flex-flow: row nowrap;
 }
 
-@media (min-width: 1000px) {
-
-  .heading-size-change {
-    font-size: 30px;
-  }
-}
-
 @media (min-width: 768.98px) {
-
-  .heading-size-change {
-    font-size: 20px;
-  }
-
-  
   #logo img {
     width: 70px;
     height: 70px;
@@ -274,7 +261,7 @@ body {
   }
 
   .heading-size-change {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 
